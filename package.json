@@ -1,0 +1,39 @@
+{
+  "name": "summari.ai.server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "21.x"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@google/generative-ai": "^0.16.0",
+    "@langchain/community": "^0.2.25",
+    "@langchain/core": "^0.2.22",
+    "@langchain/google-genai": "^0.0.25",
+    "@supabase/supabase-js": "^2.45.1",
+    "axios": "^1.7.3",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "global": "^4.4.0",
+    "html-to-text": "^9.0.5",
+    "langchain": "^0.2.13",
+    "puppeteer": "^23.0.2",
+    "uuid": "^10.0.0",
+    "vercel": "^35.2.4",
+    "youtube-transcript": "^1.2.1",
+    "youtubei.js": "^9.4.0"
+  }
+}

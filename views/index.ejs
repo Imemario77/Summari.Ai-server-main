@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Summari.AI - Chat with Any Website or YouTube Video</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <svg width="40" height="40" viewBox="0 0 72 72" class="looka-1j8o68f">
+          <defs id="SvgjsDefs1330"></defs>
+          <g
+            id="SvgjsG1331"
+            featurekey="PG4fjM-0"
+            transform="matrix(2.6923076923076925,0,0,2.6923076923076925,0,0)"
+            fill="#1989ac"
+          >
+            <g xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.5,19c0.912,0,1.759-0.275,2.468-0.742C7.791,19.31,9.06,20,10.5,20c1.055,0,2.013-0.378,2.78-0.986   C13.903,20.75,15.549,22,17.5,22c2.348,0,4.252-1.804,4.459-4.097C24.262,17.456,26,15.433,26,13c0-2.084-1.276-3.867-3.089-4.618   C22.968,8.097,23,7.802,23,7.5C23,5.015,20.985,3,18.5,3c-0.171,0-0.332,0.032-0.498,0.05C16.852,1.22,14.821,0,12.5,0   c-2.704,0-5.021,1.651-6,4C4.015,4,2,6.015,2,8.5c0,0.721,0.185,1.392,0.486,1.996C1.018,11.237,0,12.743,0,14.5   C0,16.985,2.015,19,4.5,19z"
+              ></path>
+              <circle cx="9.5" cy="23.5" r="2.5"></circle>
+              <circle cx="4.5" cy="25.5" r="1.5"></circle>
+            </g>
+          </g></svg
+        >Summari.AI
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#use-cases">Use Cases</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <a href="#early-access" class="cta-button">Sign up - it's free</a>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <div class="container">
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Chat with Any Website or YouTube Video - Instantly</h1>
+          <p class="subheading">
+            No more copy-pasting links. Get answers and insights directly from
+            web content on the same webpage.
+          </p>
+          <button class="cta-button" id="learnMore">Learn More</button>
+        </div>
+        <div class="hero-image">
+          <img src="Hero.png" alt="Summari.AI Demo" />
+        </div>
+      </section>
+
+      <h2 class="features-h2" id="features">
+        How Our Tool Makes Research Easier
+      </h2>
+      <section class="features">
+        <div class="feature">
+          <i class="fas fa-comments"></i>
+          <h3>Instant Chat</h3>
+          <p>Engage with website content through a chat interface.</p>
+        </div>
+        <div class="feature">
+          <i class="fab fa-youtube"></i>
+          <h3>YouTube Integration</h3>
+          <p>Chat directly with YouTube video content.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-brain"></i>
+          <h3>AI-Powered Insights</h3>
+          <p>Get intelligent responses and analysis.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-clock"></i>
+          <h3>Time-Saving</h3>
+          <p>Quick answers without leaving your current page.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-language"></i>
+          <h3>Efficiency</h3>
+          <p>Focus on analysis, and not unproductive searching.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-lock"></i>
+          <h3>Accuracy</h3>
+          <p>Get reliable answers directly from the source.</p>
+        </div>
+      </section>
+
+      <section class="video-demo" id="video-demo">
+        <div class="container">
+          <h2 class="features-h2">See Summari.AI in Action</h2>
+          <div class="video-container">
+            <img
+              src="Thumbnail.png"
+              alt="Summari.AI Demo"
+              class="video-thumbnail"
+            />
+            <button class="play-button">▶</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="modal" id="video-modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <video controls playsinline>
+            <source src="demo-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+      <section class="how-it-works" id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <p>Install the Summari.AI Chrome extension</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <p>Browse any website or YouTube video</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <p>Click the Summari.AI icon in your browser</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <p>Start chatting and get instant insights!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="use-cases" id="use-cases">
+        <h2>Use Cases</h2>
+        <div class="use-case">
+          <h3>Research</h3>
+          <p>
+            Quickly extract key information from academic papers or long
+            articles.
+          </p>
+        </div>
+        <div class="use-case">
+          <h3>Learning</h3>
+          <p>
+            Ask questions about educational videos or online courses for better
+            understanding.
+          </p>
+        </div>
+        <div class="use-case">
+          <h3>Data Extraction</h3>
+          <p>Extract specific data points from webpages.</p>
+        </div>
+        <div class="use-case">
+          <h3>News Analysis</h3>
+          <p>Ask for summaries or get context on complex news articles.</p>
+        </div>
+      </section>
+      <section class="pricing" id="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-plans">
+          <div class="plan">
+            <h3>Free</h3>
+            <p class="price">$0<span>/month</span></p>
+            <ul>
+              <li>Basic summarization of web pages, YouTube videos</li>
+              <li>10 queries per day</li>
+            </ul>
+            <a href="#early-access" class="cta-button">Get Started</a>
+          </div>
+          <div class="plan">
+            <h3>Basic</h3>
+            <p class="price">
+              $9.99<span>/month <br />or</span> <br />
+              $99.99<span>/year</span>
+            </p>
+            <ul>
+              <li>All Free tier features</li>
+              <li>150 queries per day</li>
+              <li>Integration with one productivity tool</li>
+              <li>Basic sentiment analysis and keyword extraction</li>
+            </ul>
+            <a href="#early-access" class="cta-button">Choose Basic</a>
+          </div>
+          <div class="plan featured">
+            <h3>Pro</h3>
+            <p class="price">
+              $15.99<span>/month <br />or</span> <br />$189.99<span>/year</span>
+            </p>
+            <ul>
+              <li>All Basic tier features</li>
+              <li>Unlimited queries</li>
+              <li>Integration with Notion, Evernote, and Google Docs</li>
+              <li>Advanced sentiment analysis and keyword extraction</li>
+              <li>Customizable summary style and length</li>
+              <li>Premium support</li>
+            </ul>
+            <a href="#early-access" class="cta-button">Upgrade to Pro</a>
+          </div>
+        </div>
+      </section>
+      <section class="early-access" id="early-access">
+        <h2>Be an Early Adopter</h2>
+        <p>
+          Sign up to get notified when we launch and receive exclusive early
+          access.
+        </p>
+        <form id="signupForm" method="post">
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            autocomplete
+            required
+          />
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            autocomplete
+            required
+          />
+          <button type="submit" class="cta-button isolate">
+            Get Early Access
+          </button>
+        </form>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <p class="faq-question">Q: Is Summari.AI free to use?</p>
+          <p>
+            A: We plan to offer both free and premium tiers. Sign up for early
+            access to be the first to know about our pricing plans.
+          </p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-question">
+            Q: How accurate are the AI-powered responses?
+          </p>
+          <p>
+            A: Our AI model is continuously improving. While it provides highly
+            accurate information in most cases, we always recommend verifying
+            critical information.
+          </p>
+        </div>
+        <div class="faq-item">
+          <p class="faq-question">Q: Does Summari.AI work on all websites?</p>
+          <p>
+            A: Summari.AI is designed to work on most websites and YouTube
+            videos. However, some websites with strict security measures may not
+            be fully compatible.
+          </p>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 72 72"
+              class="looka-1j8o68f"
+            >
+              <defs id="SvgjsDefs1330"></defs>
+              <g
+                id="SvgjsG1331"
+                featurekey="PG4fjM-0"
+                transform="matrix(2.6923076923076925,0,0,2.6923076923076925,0,0)"
+                fill="#1989ac"
+              >
+                <g xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.5,19c0.912,0,1.759-0.275,2.468-0.742C7.791,19.31,9.06,20,10.5,20c1.055,0,2.013-0.378,2.78-0.986   C13.903,20.75,15.549,22,17.5,22c2.348,0,4.252-1.804,4.459-4.097C24.262,17.456,26,15.433,26,13c0-2.084-1.276-3.867-3.089-4.618   C22.968,8.097,23,7.802,23,7.5C23,5.015,20.985,3,18.5,3c-0.171,0-0.332,0.032-0.498,0.05C16.852,1.22,14.821,0,12.5,0   c-2.704,0-5.021,1.651-6,4C4.015,4,2,6.015,2,8.5c0,0.721,0.185,1.392,0.486,1.996C1.018,11.237,0,12.743,0,14.5   C0,16.985,2.015,19,4.5,19z"
+                  ></path>
+                  <circle cx="9.5" cy="23.5" r="2.5"></circle>
+                  <circle cx="4.5" cy="25.5" r="1.5"></circle>
+                </g>
+              </g>
+            </svg>
+            <span>Summari.AI</span>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#use-cases">Use Cases</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Summari.AI. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script>
+      document
+        .getElementById("learnMore")
+        .addEventListener("click", function () {
+          document
+            .querySelector(".features")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("signupForm")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault(); // Prevent default form submission
+
+          // Collect form data
+
+          const email = document.getElementById("email").value;
+          const name = document.getElementById("name").value;
+
+          console.log({ email, name });
+
+          try {
+            // Send data to your server using Fetch API
+            const response = await fetch(
+              "https://syn5x8.buildship.run/email-list",
+              {
+                // Replace with your actual endpoint
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ email, name }),
+              }
+            );
+
+            if (response.ok) {
+              // Handle successful submission (e.g., display a success message)
+              alert(
+                "Thanks for your interest! We'll notify you when we launch."
+              );
+              this.reset(); // Clear the form
+              window.location = "/thanks";
+            } else {
+              // Handle error (e.g., display an error message)
+              alert("An error occurred. Please try again later.");
+            }
+          } catch (error) {
+            console.error("Error submitting form:", error);
+            alert("An error occurred. Please try again later.");
+          }
+        });
+
+      window.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+        if (window.scrollY > 0 || header.getBoundingClientRect().top < 0) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        hamburger.classList.toggle("active");
+      });
+
+      // Close mobile menu when a link is clicked
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          hamburger.classList.remove("active");
+        });
+      });
+
+      const videoThumbnail = document.querySelector(".video-container");
+      const modal = document.getElementById("video-modal");
+      const closeButton = document.querySelector(".close-button");
+      const video = document.querySelector(".modal-content video");
+
+      videoThumbnail.addEventListener("click", () => {
+        modal.style.display = "block";
+        video.play();
+      });
+
+      closeButton.addEventListener("click", () => {
+        modal.style.display = "none";
+        video.pause();
+        video.currentTime = 0;
+      });
+
+      window.addEventListener("click", (event) => {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          video.pause();
+          video.currentTime = 0;
+        }
+      });
+    </script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Hero section animation
+      gsap.from(".hero-content", {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        scrollTrigger: {
+          trigger: ".hero",
+          start: "top 80%",
+        },
+      });
+
+      gsap.from(".hero-image", {
+        opacity: 0,
+        x: 50,
+        duration: 1,
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: ".hero",
+          start: "top 80%",
+        },
+      });
+
+      // How it works animation
+      gsap.from(".step", {
+        opacity: 0,
+        x: -50,
+        duration: 0.8,
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: ".how-it-works",
+          start: "top 80%",
+        },
+      });
+
+      // Use cases animation
+      gsap.from(".use-case", {
+        opacity: 0,
+        y: 50,
+        duration: 0.8,
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: ".use-cases",
+          start: "top 80%",
+        },
+      });
+
+      // Pricing plans animation
+      gsap.from(".plan", {
+        opacity: 0,
+        y: 50,
+        duration: 0.8,
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: ".pricing",
+          start: "top 80%",
+        },
+      });
+
+      // FAQ animation
+      gsap.from(".faq-item", {
+        opacity: 0,
+        y: 20,
+        duration: 0.5,
+        stagger: 0.1,
+        scrollTrigger: {
+          trigger: ".faq",
+          start: "top 80%",
+        },
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+  </body>
+</html>
